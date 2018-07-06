@@ -1,0 +1,13 @@
+{
+  "devPublicPathPrefix": "http://localhost:10693",
+  "packages": [
+    {
+      "context": "./packages/demo",
+      "externals": [
+        {"commonjs": "vue", "root": "Vue","amd": "vue"},
+        {"commonjs": "vuex", "root": "Vuex","amd": "vuex"},
+        {"commonjs": "vue-router", "root": "VueRouter","amd": "vue-router"}
+      ]
+    }
+  ]
+}

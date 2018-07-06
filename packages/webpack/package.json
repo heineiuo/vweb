@@ -1,0 +1,11 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "webpack": "^4.15.1",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
